@@ -33,7 +33,12 @@ Borrow = A’B
 
 Figure -02 HALF Subtractor
 
-**Truthtable**
+**Truthtable**:
+Half adder:
+![WhatsApp Image 2024-12-09 at 06 41 57_553ba6b6](https://github.com/user-attachments/assets/a43823ea-65ea-4241-a673-c0373c7355c3)
+Half subractor:
+![WhatsApp Image 2024-12-09 at 06 42 25_3bca816c](https://github.com/user-attachments/assets/ab32134a-53c6-4a77-b9e2-85fa197ead3b)
+
 
 **Procedure**
 
@@ -55,7 +60,17 @@ Figure -02 HALF Subtractor
 Developed by: RegisterNumber:*/
 
 **RTL Schematic**
+Half adder:![Screenshot_2024-11-11_232329 1](https://github.com/user-attachments/assets/3aa9575c-e42c-4aff-8618-5b06bfeebb4f)
+
+Half subractor:![Screenshot_2024-11-11_232840 1](https://github.com/user-attachments/assets/fca30790-1ed5-4d26-956a-b7b752dea4d1)
+
 
 **Output/TIMING Waveform**
+Half adder:![WhatsApp Image 2024-12-09 at 06 40 36_a4089b50](https://github.com/user-attachments/assets/c4f13e9d-24b2-47fa-be46-bf3da4dffeab)
 
-**Result:**
+
+Half subractor:![WhatsApp Image 2024-12-09 at 06 40 57_0ad9b1a5](https://github.com/user-attachments/assets/751924bd-2861-4cd3-b8a2-9932c2f8e766)
+
+
+**Result:** : Thus the truth table of half adder and half subtractor in QuartusII using Verilog
+programming is verified.
