@@ -35,9 +35,15 @@ Figure -02 HALF Subtractor
 
 **Truthtable**:
 Half adder:
-![WhatsApp Image 2024-12-09 at 06 41 57_553ba6b6](https://github.com/user-attachments/assets/a43823ea-65ea-4241-a673-c0373c7355c3)
+
+
+
+![397930368-6917253e-4b99-4d73-99d4-ca83a8835326](https://github.com/user-attachments/assets/50609517-6f50-4014-ad8a-e278a900ae2d)
+
+
 Half subractor:
-![WhatsApp Image 2024-12-09 at 06 42 25_3bca816c](https://github.com/user-attachments/assets/ab32134a-53c6-4a77-b9e2-85fa197ead3b)
+
+![397930376-db04186a-6e78-4da3-bbf2-98ef7c5896e6](https://github.com/user-attachments/assets/14858163-01fc-4c2c-bca0-7c876ae58805)
 
 
 **Procedure**
@@ -57,19 +63,55 @@ Half subractor:
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by: Gayathri S 
+
+RegisterNumber:24900444
+
+```
+module ha(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum= (a ^ b);
+assign carry= ( a & b);
+endmodule
+
+module hs(a,b,difference,borrow);
+input a,b;
+output difference,borrow;
+assign difference= (a ^ b);
+assign borrow= ( ~a & b);
+endmodule
+```
+
 
 **RTL Schematic**
-Half adder:![Screenshot_2024-11-11_232329 1](https://github.com/user-attachments/assets/3aa9575c-e42c-4aff-8618-5b06bfeebb4f)
 
-Half subractor:![Screenshot_2024-11-11_232840 1](https://github.com/user-attachments/assets/fca30790-1ed5-4d26-956a-b7b752dea4d1)
+Half adder:
+
+
+![Screenshot_2024-11-11_232329 1](https://github.com/user-attachments/assets/3aa9575c-e42c-4aff-8618-5b06bfeebb4f)
+
+Half subractor:
+
+![Screenshot_2024-11-11_232840 1](https://github.com/user-attachments/assets/fca30790-1ed5-4d26-956a-b7b752dea4d1)
 
 
 **Output/TIMING Waveform**
-Half adder:![WhatsApp Image 2024-12-09 at 06 40 36_a4089b50](https://github.com/user-attachments/assets/c4f13e9d-24b2-47fa-be46-bf3da4dffeab)
+
+Half adder:
 
 
-Half subractor:![WhatsApp Image 2024-12-09 at 06 40 57_0ad9b1a5](https://github.com/user-attachments/assets/751924bd-2861-4cd3-b8a2-9932c2f8e766)
+![392862681-4f0a4ecc-62d8-4c2b-8e90-b291698d5940](https://github.com/user-attachments/assets/2aa04412-bd7c-4a1f-8ad7-a7c4fb4f1471)
+
+
+
+
+Half subractor:
+
+
+![392862720-76da6dd6-e373-4956-b355-0659a42b3597](https://github.com/user-attachments/assets/1220038c-c1f2-4d2e-b7df-ab4d5ad8ac17)
+
+
 
 
 **Result:** : Thus the truth table of half adder and half subtractor in QuartusII using Verilog
